@@ -11,7 +11,11 @@ int main(int argc, char *argv[]) {
     // cout << numeroEntero << "\n\n";
 
     // short int enteroCorto = 32767; // entre -32768 y 32767
+    // unsigned int enteroSinSigno = 4294967295; // entre 0 y 4294967295
     // unsigned short int enteroCortoSinSigno = 65535; // entre 0 y 65535
+
+    // long int enteroLargo = 2147483647; // entre -2147483648 y 2147483647
+    // unsigned long int enteroLargoSinSigno = 4294967295; // entre 0 y 4294967295
 
     // float numeroFlotante = 3.3;
     // cout << "Un numero de punto flotante se define con la palabra clave 'float' o 'double'.\nfloat numeroFlotante = 3.3;";
