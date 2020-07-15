@@ -9,7 +9,7 @@
     en común los dos vectores ingresados por el usuario.
     El nuevo vector no debe contener números repetidos y los números deben respetar el orden en que se encontraron
     en el primer vector ingresado.
-    Finalmente el programa debe imprimir por pantall los números del nuevo vector separados por un espacio.
+    Finalmente el programa debe imprimir por pantalla los números del nuevo vector separados por un espacio.
 */
 
 #include <iostream>
@@ -17,19 +17,25 @@ using namespace std;
 const int NMAX = 10;
 
 void ingresar_vector(int[NMAX], int);
+void obtener_repetidos(int[NMAX], int[NMAX], int, int[NMAX], int&);
+void imprimir_vector(string, int[NMAX], int);
 
 int main() {
     int elementos;
     cin >> elementos;
     int vector1[NMAX];
     int vector2[NMAX];
+    int repetidos[NMAX];
 
     ingresar_vector(vector1, elementos);
+    imprimir_vector("Vector 1", vector1, elementos);
     ingresar_vector(vector2, elementos);
+    imprimir_vector("Vector 2", vector2, elementos);
 
-    for(int i = 0 ; i < elementos ; i++) {
-        cout << vector1[i] << " ";
-    }
+    int r = 0;
+    obtener_repetidos(vector1, vector2, elementos, repetidos, r);
+
+    imprimir_vector("Repetidos", repetidos, r);
 
     return 0;
 }
@@ -40,14 +46,35 @@ void ingresar_vector(int vector[NMAX], int n) {
     }
 }
 
-void obtener_repetidos(int vector1[NMAX], int vector2[NMAX], int n) {
-    int ya_agregados[NMAX];
+void imprimir_vector(string nombre, int vector[NMAX], int n) {
+    cout << "Imprimir vector " << nombre << ":\n";
+    for(int i = 0 ; i < n ; i++) {
+        cout << vector[i] << " ";
+    }
+    cout << "\n";
+    return;
+}
+
+void obtener_repetidos(int vector1[NMAX], int vector2[NMAX], int n, int vector_repetidos[NMAX], int &r) {
     int agregados = 0;
+
     for(int i = 0 ; i < n ; i++ ) {
         for(int j = 0 ; j < n ; j++) {
+            bool esta = false;
             if(vector1[i] == vector2[j]) {
-                //
+                for(int k = 0 ; k < agregados ; k++) {
+                    if(vector_repetidos[k] == vector1[i]) {
+                        esta = true;
+                    }
+                }
+                if(esta == false) {
+                    vector_repetidos[agregados] = vector1[i];
+                    agregados++;
+                }
             }
         }
     }
+
+    r = agregados;
+    return;
 }
