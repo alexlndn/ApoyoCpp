@@ -22,16 +22,19 @@ int main() {
     // buscar el valor mas cercano a 10
     // se define arbitrariamente como el mas cercano el primer elemento de la matriz
     int mas_cercano = matriz[0][0];
-
+    int x = 0;
+    int y = 0;
     for(int i = 0 ; i < 4 ; i++) {
         for(int j = 0 ; j < 4 ; j++) {
             // se compara la distancia del mas cercano hasta 10 con la distancia del elemento actual hasta 10
             // si la distancia del actual es menor, almacena el nuevo valor en la variable mas_cercano
             if(abs(10 - mas_cercano) > abs(10 - matriz[i][j])) { // abs es valor absoluto
                 mas_cercano = matriz[i][j];
+                x = i;
+                y = j;
             }
         }
     }
 
-    cout << mas_cercano << endl;
+    cout << "x: " << x << "\ny: " << y << "\n" <<  mas_cercano << endl;
 }
