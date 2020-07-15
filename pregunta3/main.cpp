@@ -2,14 +2,14 @@
     Problema:
     Escriba un programa que solicite al usuario un numero entre 1 y 10, el cual
     va a representar la cantidad de elementos de un vector de numeros enteros.
-    Luego de ingresar este número, el programa debe pedir que se ingresen todos los valores
+    Luego de ingresar este numero, el programa debe pedir que se ingresen todos los valores
     del vector.
     Este procedimiento se debe repetir dos veces para que el usuario ingrese 2 vectores.
-    Cuando los vectores estén completos, el programa debe calcular un nuevo vector que contenga los números que tienen
-    en común los dos vectores ingresados por el usuario.
-    El nuevo vector no debe contener números repetidos y los números deben respetar el orden en que se encontraron
+    Cuando los vectores estén completos, el programa debe calcular un nuevo vector que contenga los numeros que tienen
+    en comun los dos vectores ingresados por el usuario.
+    El nuevo vector no debe contener numeros repetidos y los numeros deben respetar el orden en que se encontraron
     en el primer vector ingresado.
-    Finalmente el programa debe imprimir por pantalla los números del nuevo vector separados por un espacio.
+    Finalmente el programa debe imprimir por pantalla los numeros del nuevo vector separados por un espacio.
 */
 
 #include <iostream>
