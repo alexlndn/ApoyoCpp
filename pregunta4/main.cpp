@@ -1,3 +1,17 @@
+/*
+    Pregunta 4:
+    Codifique la definición de una función cuyo prototipo es:
+        void extraeFila(int matriz[NMAX][NMAX], int Nodos, int f, int fila[NMAX]);
+
+    La función recibe como argumento un arreglo bidimensional de enteros con NMAX filas y NMAX columnas.
+    Se debe asumir que NMAX es una constante global (no es necesario definirla).
+    Ademas la funcion acepta un argumento entero Nodos que representa el numero de filas y el numero de columnas,
+    se asume que Nodos es menor o igual que NMAX y mayor a cero, no es necesario comprobarlo.
+    La función debe copiar los elementos de la fila cuyo indice es f (pasado como argumento) en el arreglo
+    unidimensional fila pasado como argumento.
+
+*/
+
 #include <iostream>
 
 using namespace std;
