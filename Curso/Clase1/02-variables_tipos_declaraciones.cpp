@@ -1,11 +1,19 @@
 #include <iostream>
+#include <iomanip>
+
 using namespace std;
 
-int main(int argc, char *argv[]) {
+int main() {
 
-    cout << "Bienvenido a la clase de tipos de datos.\n";
-    cout << "\n";
+    // DECLARACION DE UNA VARIABLE
+    // tipo_dato nombre_variable;
+    int variable;
 
+    // declaracion multiple de variables del mismo tipo de dato
+    int variable1, variable2;
+
+
+    // TIPOS DE DATOS y ASIGNACIONES
     // int numeroEntero = 3;
     // cout << "Un numero entero se define con la palabra clave 'int'.\nint numeroEntero = 3;\n";
     // cout << numeroEntero << "\n\n";
@@ -30,12 +38,27 @@ int main(int argc, char *argv[]) {
     // cout << "Un booleano es una variable binaria, es decir, solo puede tomar dos valores.\nbool bandera = false;\n" ;
     // cout << bandera1 << " " << bandera2 << endl;
 
-    // int numeros[5] = {1,2,3,4,5};
+    // que pasa si guardamos un valor float en una variable de tipo entera?
+    // int a = 3.0;
+    // cout << a << endl;
 
-    // for(int i = 0 ; i < sizeof(numeros) / sizeof(*numeros) ; i++) {
-    //     cout << numeros[i] << endl;
-    // }
+    // IOMANIP
+    // establecer un ancho para imprimir texto (por columnas)
 
-    // system("PAUSE");
+    // float n = 10.3055;
+    // float m = 11.6025;
+    // float l = 136.111;
+    // cout << setw(12);
+    // cout << n << "\t" << m << "\t" << l << endl;
+    // cout << n << "\t" << m << "\t" << l << endl;
 
+    // establecer precision
+    // float n = 321.60412;
+    // notacion cientifica
+    // cout << "Notacion cientifica: " << setprecision(2) << n << endl;
+    // notacion normal
+    // cout << "Notacion normal: " << fixed << setprecision(2) << n << endl;
+
+
+    return 0;
 }
