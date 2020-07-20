@@ -13,7 +13,7 @@
     Los numeros ingresados son los siguientes:
     8
     -3.5
-    7e+000
+    7.33e+000
 */
 #include <iostream>
 #include <iomanip>

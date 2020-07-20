@@ -9,6 +9,10 @@ int main() {
     // tipo_dato nombre_variable;
     // int variable;
 
+    // int a, z;
+    // float b;
+    // double c;
+
     // declaracion multiple de variables del mismo tipo de dato
     // int variable1, variable2;
 
@@ -33,8 +37,10 @@ int main() {
 
 
     // char caracter1 = 'c';
+    // char caracter2 = 65;
     // cout << "Un caracter se define con la palabra clave 'char'.\nchar caracter1 = 'c';\n";
-    // cout << caracter1 << "\n\n";
+    // cout << caracter1 << "\n";
+    // cout << caracter2 << "\n\n";
 
     // bool bandera1 = false;
     // bool bandera2 = true;
@@ -42,21 +48,21 @@ int main() {
     // cout << bandera1 << " " << bandera2 << endl;
 
     // que pasa si guardamos un valor float en una variable de tipo entera?
-    // int a = 3.0;
+    // int a = 3.99;
     // cout << a << endl;
 
     // IOMANIP
     // establecer un ancho para imprimir texto (por columnas)
 
-    // float n = 10.3055;
+    // float n = 103055305523;
     // float m = 11.6025;
     // float l = 136.111;
-    // cout << setw(12);
-    // cout << n << "\t" << m << "\t" << l << endl;
+    // cout << setw(24);
+    // cout << setw(24) << n << setw(24) << m << setw(24) << l << endl;
     // cout << n << "\t" << m << "\t" << l << endl;
 
     // establecer precision (setprecision)
-    // float n = 321.60412;
+    // float n = 32123.60412;
 
     // notacion cientifica
     // cout << "Notacion cientifica: " << scientific << setprecision(2) << n << endl;

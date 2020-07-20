@@ -1,5 +1,6 @@
 // importaciones de librerias para el programa
 #include <iostream>
+#include <iomanip>
 
 using namespace std; // se define el uso del espacio de nombres std (estandar)
 

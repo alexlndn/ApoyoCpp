@@ -18,7 +18,7 @@ int main() {
     // endl indica un salto de linea
 
     cout << "\t" << endl; // tabulador
-    cout << "\n" << endl; // nueva linea (al igual que el endl)
+    cout << "\n\n\n" << endl; // nueva linea (al igual que el endl)
 
 
     return 0;
