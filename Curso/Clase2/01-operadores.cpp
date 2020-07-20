@@ -29,6 +29,7 @@ int main() {
     // operador de comparacion
     // el valor devuelto por una comparacion es un valor booleano
     cout << ('a' == 'a') << endl;
+    cout << ('a' != 'a') << endl;
     cout << (a == b) << endl;
 
     bool esIgual = e == false;
