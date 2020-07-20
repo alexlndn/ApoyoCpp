@@ -14,7 +14,7 @@ int main() {
 
 
     // TIPOS DE DATOS y ASIGNACIONES
-    // int numeroEntero = 3;
+    // int numeroEntero = 3; // entre -2147483648 y +2147483647
     // cout << "Un numero entero se define con la palabra clave 'int'.\nint numeroEntero = 3;\n";
     // cout << numeroEntero << "\n\n";
 
@@ -26,8 +26,11 @@ int main() {
     // unsigned long int enteroLargoSinSigno = 4294967295; // entre 0 y 4294967295
 
     // float numeroFlotante = 3.3;
+    // double numeroFlotante2 = 3.333;
     // cout << "Un numero de punto flotante se define con la palabra clave 'float' o 'double'.\nfloat numeroFlotante = 3.3;";
-    // cout << numeroFlotante << "\n\n";
+    // cout << numeroFlotante << "\n";
+    // cout << numeroFlotante2 << "\n\n";
+
 
     // char caracter1 = 'c';
     // cout << "Un caracter se define con la palabra clave 'char'.\nchar caracter1 = 'c';\n";
@@ -52,13 +55,13 @@ int main() {
     // cout << n << "\t" << m << "\t" << l << endl;
     // cout << n << "\t" << m << "\t" << l << endl;
 
-    // establecer precision
+    // establecer precision (setprecision)
     // float n = 321.60412;
+
     // notacion cientifica
-    // cout << "Notacion cientifica: " << setprecision(2) << n << endl;
+    // cout << "Notacion cientifica: " << scientific << setprecision(2) << n << endl;
     // notacion normal
     // cout << "Notacion normal: " << fixed << setprecision(2) << n << endl;
-
 
     return 0;
 }
