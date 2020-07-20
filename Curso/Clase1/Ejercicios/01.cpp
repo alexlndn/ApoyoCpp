@@ -3,7 +3,9 @@
     el primero debe ser un numero entero,
     el segundo y el tercero seran numeros reales,
 
-    el programa debera imprimir en pantalla los tres numeros
+    el programa debera imprimir en pantalla los tres numeros segun el formato
+    que se puede observar en el ejemplo de ejecucion.
+
     la salida siguiente es un ejemplo de ejecucion del programa:
 
     Ingrese un numero entero: 8
