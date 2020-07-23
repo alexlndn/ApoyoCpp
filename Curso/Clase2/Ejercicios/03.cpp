@@ -1,17 +1,19 @@
 /*
-    Escriba un programa que solicite un numero entero al usuario:
-    si el numero ingresado es 1:
-    - solicitar ingresar 5 numeros e imprimir la suma de estos
+    Escriba un programa que solicite al usuario un numero entero mayor o igual a cero
 
-    si el numero ingresado es 2:
-    - solicitar ingresar un nuevo numero que sea mayor al ingresado para esta opcion
-    e imprima si el numero es par o impar.
+    si el numero ingresado por el usuario es menor a 10
+    el programa debera imprimir los numeros desde el 0 hasta el numero ingresado,
+    en caso contrario el programa debera imprimir los numeros desde el cero hasta el numero ingresado, sumando de a 10, y si
+    el ingresado no es un multiplo de 10, este debera mostrarse tambien.
 
-    si el numero ingresado es 3:
-    - salir del programa.
+    Ejemplos:
+    el usuario ingresa el 72, la salida del programa será:
+    0 10 20 30 40 50 60 70 72
 
-    en cualquier otro caso seguir pidiendo que se ingrese una opcion valida (1 al 3).
+    el usuario ingresa el 8:
+    0 1 2 3 4 5 6 7 8
 */
+
 #include <iostream>
 using namespace std;
 

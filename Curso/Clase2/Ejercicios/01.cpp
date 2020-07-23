@@ -1,23 +1,23 @@
 /*
-    Escriba un programa que solicite al usuario un numero entero mayor o igual a cero
+    Solicite al usuario el ingreso de un numero entero
+    Si el numero ingresado es par el programa deberá calcular
+    la potencia que como base utilice el numero ingresado por el usuario
+    y como exponente el numero 2 e imprimir:
+    EL NUMERO x ES PAR.
+    SU CUADRADO ES (x^2)
 
-    si el numero ingresado por el usuario es menor a 10
-    el programa debera imprimir los numeros desde el 0 hasta el numero ingresado,
-    en caso contrario el programa debera imprimir los numeros desde el cero hasta el numero ingresado, sumando de a 10, y si
-    el ingresado no es un multiplo de 10, este debera mostrarse tambien.
-
-    Ejemplos:
-    el usuario ingresa el 72, la salida del programa será:
-    0 10 20 30 40 50 60 70 72
-
-    el usuario ingresa el 8:
-    0 1 2 3 4 5 6 7 8
+    Si el numero ingresado es impar el programa deberá calcular
+    el modulo del numero con respecto 3 (x % 3) y calcular la raiz cuadrada
+    del numero resultante del modulo e imprimir:
+    EL NUMERO x ES IMPAR.
+    LA RAIZ DEL MODULO 3 ES (valor)
 */
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
-
+    
     return 0;
 }
