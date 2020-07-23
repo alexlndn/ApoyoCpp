@@ -19,6 +19,11 @@ int main() {
     case 4:
         cout << "Esta era la ultima opcion, bien hecho.\n";
         break;
+    case 6:
+    case 8:
+    case 10:
+        cout << "Este es una entrada de 3 valores.\n";
+        break;
 
     default:
         cout << "El valor ingresado esta fuera de rango.\n";
