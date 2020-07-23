@@ -45,5 +45,31 @@ int main() {
     cout << "Obtener la raiz cuadrada de un numero" << endl;
     cout << sqrt(16) << endl;
 
+
+    // OPERADORES LOGICOS
+    cout << "AND\n";
+    cout << true && true << endl;
+    cout << true && false << endl;
+
+    cout << "OR\n";
+    cout << true || true << endl;
+    cout << false || true || false << endl;
+    cout << false || true << endl;
+
+    // 3 + 2 * 5 = 13
+    // OR = +
+    // AND = *
+    /*
+        false = 0
+        true = 1
+
+        0 + 1 = 1 // 0 OR 1
+        0 * 1 = 0 // 0 AND 1
+
+        1 + 1 = 1 // en logica
+    */
+    // anidacion de booleanos
+    ((0 || 1) && 1);
+
     return 0;
 }
