@@ -45,5 +45,8 @@ int main() {
     cout << "Obtener la raiz cuadrada de un numero" << endl;
     cout << sqrt(16) << endl;
 
+    cout << "Obtener la raiz cuarta de un numero" << endl;
+    cout << sqrt(sqrt(16)) << endl;
+
     return 0;
 }

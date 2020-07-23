@@ -22,6 +22,7 @@ int main() {
     if(false) {
         // do something
         // este codigo se ejecutara nunca en este caso
+        cout << "yo no me ejecuto.\n\n";
     } else {
         // este codigo siempre se va a ejecutar en este caso
         cout << "Ingresando en la segunda parte de la decision.\n";
@@ -36,6 +37,20 @@ int main() {
         }
     }else {
         // esto no se ejecutará
+    }
+
+    // estructuras de decision multiple
+    int us;
+    cin >> us;
+
+    if(us == 1) {
+        cout << "Ingresaste 1" << endl;
+    } else if(us == 2){
+        cout << "Has ingresado el 2" << endl;
+    } else if(us == 3){
+        cout << "Se ha ingresado el 3" << endl;
+    } else {
+        cout << "El numero ingresado es: " << us << endl;
     }
 
     return 0;
