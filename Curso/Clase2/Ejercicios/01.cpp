@@ -1,5 +1,5 @@
 /*
-    Escriba un programa que solicite al usuario un numero entero positivo (o cero)
+    Escriba un programa que solicite al usuario un numero entero mayor o igual a cero
 
     si el numero ingresado por el usuario es menor a 10
     el programa debera imprimir los numeros desde el 0 hasta el numero ingresado,
