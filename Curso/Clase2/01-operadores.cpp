@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main() {
@@ -34,5 +35,15 @@ int main() {
 
     bool esIgual = e == false;
     cout << esIgual << endl;
+
+
+    // otras operaciones importantes
+    // utilizan la libreria cmath (ver includes al comienzo del archivo)
+    cout << "Elevar un numero a la X" << endl;
+    cout << pow(5, 2) << endl;
+
+    cout << "Obtener la raiz cuadrada de un numero" << endl;
+    cout << sqrt(16) << endl;
+
     return 0;
 }
