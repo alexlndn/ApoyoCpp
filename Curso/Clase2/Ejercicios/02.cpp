@@ -15,7 +15,7 @@
             imprimir la raiz cuadrada de VR
         - en cualquier otro caso:
             imprimir VR
-    
+
     si el VR es falso:
         el programa solicitará al usuario ingresar otro valor e imprimira la raiz cuarta de ese valor.
 
@@ -39,6 +39,8 @@
 
 #include <iostream>
 #include <cmath>
+
+using namespace std;
 
 int main() {
 
