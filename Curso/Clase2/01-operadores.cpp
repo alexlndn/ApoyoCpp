@@ -36,6 +36,13 @@ int main() {
     bool esIgual = e == false;
     cout << esIgual << endl;
 
+    // comparar de acuerdo a relacion
+    bool esMenor = a < b; // esMenor vale 1 si a es menor a b y 0 si a es mayor o igual a b
+    bool esMayor = a > b; // esMayor vale 1 si a es mayor a b y 0 si a es menor o igual a b
+
+    bool menorIgual = a <= b; // menorIgual vale 1 si 'a' es menor o igual a 'b' y 0 si es mayor a 'b'
+    bool mayorIgual = a >= b; // mayorIgual vale 1 si 'a' es mayor o igual a 'b' y 0 si es menor a 'b'
+
 
     // otras operaciones importantes
     // utilizan la libreria cmath (ver includes al comienzo del archivo)
