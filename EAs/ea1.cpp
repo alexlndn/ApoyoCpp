@@ -99,8 +99,7 @@ void cargar_vector(float vector[NMAX], int& length) {
 
 void imprimir_vector(float vector[NMAX], int length) {
     for(int i = 0 ; i < length ; i++) {
-        cout << fixed << setprecision(2) << vector[i];
-        cout << "e+00 ";
+        cout << scientific << setprecision(2) << vector[i];
     }
     cout << endl;
     return;
