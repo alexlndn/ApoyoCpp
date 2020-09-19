@@ -12,7 +12,7 @@ int main() {
     cout << "producto: " << c << endl;
     int d = 8 / 2; // division
     cout << "division: " << d << endl;
-    int e = 8 % 2; // modulo
+    int e = 8 % 2; // modulo o resto
     cout << "modulo: " << e << endl;
 
     cout << "\n\n";

@@ -57,7 +57,6 @@ void imprimir_vector(string nombre, int vector[NMAX], int n) {
 
 void obtener_repetidos(int vector1[NMAX], int vector2[NMAX], int n, int vector_repetidos[NMAX], int &r) {
     int agregados = 0;
-
     for(int i = 0 ; i < n ; i++ ) {
         for(int j = 0 ; j < n ; j++) {
             bool esta = false;
