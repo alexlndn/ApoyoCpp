@@ -12,7 +12,10 @@ int main() {
     */
 
     int cantidad_alumnos;
-    cin >> cantidad_alumnos;
+    // controlar que la cantidad de elementos no sea mayor a la maxima capacidad del vector (array)
+    do {
+        cin >> cantidad_alumnos;
+    } while(cantidad_alumnos < 0 || cantidad_alumnos > 100);
 
     // se utiliza un bucle repetitivo para solicitar el ingreso de los valores al usuario
     for(int i = 0 ; i < cantidad_alumnos ; i++) {
@@ -23,6 +26,9 @@ int main() {
     for(int i = 0 ; i < cantidad_alumnos ; i++) {
         cout << edades[i] << " ";
     }
+
+    cout << endl << edades[0] << endl; // acceso a un elemento en concreto del vector
+    // cout << endl << edades[981273] << endl;  // segmentation fault
 
     return 0;
 }
